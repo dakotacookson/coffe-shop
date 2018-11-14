@@ -1,0 +1,21 @@
+header{
+    text-align: center
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-style: dashed;
+    border-width: thin;
+}
+
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1.5em;
+    flex-basis: auto ;
+}
+
+   
