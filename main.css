@@ -1,21 +1,23 @@
 header{
-    text-align: center
+    text-align: center;
+    font-size: 3em;
 }
 
 .list{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    border-style: dashed;
-    border-width: thin;
+    flex-basis: 25%;
 }
 
 .shop{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 1.5em;
     flex-basis: auto ;
+    flex-basis: 25%;
+    border-style: dashed;
+    border-width: thin;
 }
 
    
